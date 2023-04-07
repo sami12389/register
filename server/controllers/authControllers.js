@@ -58,3 +58,8 @@ export const register = async(req, res)=>{
 export const logout = (req, res)=>{
     res.status(200).json("Logged out")
 }
+
+
+export const deleteUser = (req, res)=>{
+    res.status(200).json("Delete User")
+}
