@@ -3,6 +3,7 @@ import bcryptjs from "bcryptjs"
 
 export const login = async(req, res)=>{
     const {name, pwd} = req.body;
+    console.log(name)
     try {
      //Check all required fields
     if(!name || !pwd){
