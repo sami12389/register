@@ -53,3 +53,8 @@ export const register = async(req, res)=>{
     console.log(error);
     }
 }
+
+
+export const logout = (req, res)=>{
+    res.status(200).json("Logged out")
+}
