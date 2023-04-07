@@ -61,5 +61,5 @@ export const logout = (req, res)=>{
 
 
 export const deleteUser = (req, res)=>{
-    res.status(200).json("Delete User")
+    res.status(200).json("Deleted Successfully")
 }
